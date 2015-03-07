@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Name"
+        android:id="@+id/itemNameCustomRow"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wireless?"
+        android:id="@+id/wirelessCustomRow"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="192.168.10.000"
+        android:id="@+id/ipaddressCustomRow"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF" />
+
+
+
+
+
+
+
+</LinearLayout>
+
